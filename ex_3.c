@@ -11,5 +11,7 @@ int main()
 	c = sqrt(a * a + b * b);
 	P = a + b + c;
 	printf("a\tb\tc\tP\n"); printf("%.2f\t%.2f\t%.2f\t%.2f", a, b, c, P);
+	if(a = 1)
+	    printf("%f", a);
 	return 0;
 }
