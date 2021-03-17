@@ -1,9 +1,7 @@
 #include <stdio.h>
-
 int main(){
     int x, y, z, num;
     float t, num_2;
-
     do {
         printf("\n");
         printf("Введіть число x: ");
@@ -22,9 +20,6 @@ int main(){
                    "значення\n");
         else
             break;
-//        if (z != 0 && num != 0 && num_2 != 0)
-//            break;
-//        printf("Ділення на нуль неможливе!\n\n");
     }
     while (1);
     t = (1 + z) * ((x + (float)(y/z)) / num_2);
