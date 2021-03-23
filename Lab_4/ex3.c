@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "../../rlutil/rlutil.h"
+
 int main(){
     int n;
     float a, s, dobutok = 1;
@@ -13,6 +15,7 @@ int main(){
                 s+=j;
         dobutok*=s;
     }
+    setColor(GREEN);
     printf("Результат - %.2f\n", dobutok);
     return 0;
 }
