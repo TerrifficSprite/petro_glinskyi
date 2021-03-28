@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <math.h>
-#include "../../rlutil/rlutil.h"
 
 int main(){
     const float a = 1, b = 2, dx = 0.025;
