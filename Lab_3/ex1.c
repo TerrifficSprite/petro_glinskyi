@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "../../rlutil/rlutil.h"
 #include <math.h>
-
 int main(){
     int a, b;
     float c, y;

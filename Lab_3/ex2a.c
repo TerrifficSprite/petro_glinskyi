@@ -12,9 +12,10 @@ int main(){
     p = M_PI * (a * a) / 4;
     setColor(GREEN);
     if(s <= p)
-        printf("Можна вписати");
-    else
-        printf("Не можна вписати");
-
+        printf("Круг поміститься у квадраті");
+    else{
+        setColor(RED);
+        printf("Круг в квадраті не поміститься");
+    }
     return 0;
 }
