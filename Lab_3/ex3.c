@@ -18,6 +18,6 @@ int main(){
     }
     x = (float)(y * y - 2 * a) + pow(cos(z), 2);
     setColor(GREEN);
-    printf("Результат обчислення: %f", x);
+    printf("Результат обчислення: %.2f", x);
     return 0;
 }
