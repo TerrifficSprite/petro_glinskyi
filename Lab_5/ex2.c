@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include "../../rlutil/rlutil.h"
-
 void draw(){
     setColor(YELLOW);
     printf("************************************\n");
@@ -73,9 +72,7 @@ int main(){
             if(i == n-1)
                 printf("]\n");
         }
-
         setColor(LIGHTRED);
-
         if(last_el == -1){
             printf("В масиві відсутні додатні елементи!\n");
             continue;
