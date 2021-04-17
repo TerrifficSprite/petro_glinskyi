@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../../rlutil/rlutil.h"
+#include "../rlutil/rlutil.h"
 #include "../library/lib.c"
 #include <time.h>
 #include <stdlib.h>
