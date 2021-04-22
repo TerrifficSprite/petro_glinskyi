@@ -1,0 +1,29 @@
+add_executable(lab1_ex_1
+        Lab_1/ex_3.c)
+
+add_executable(-
+        Lab_1/ex_3.c)
+
+add_executable(lab2_ex_1
+        Lab_2/ex1.c)
+
+add_executable(lab2_ex_2
+        Lab_2/ex2.c)
+
+add_executable(lab2_ex_3
+        Lab_2/ex3.c)
+
+add_executable(--
+        Lab_2/ex3.c)
+
+add_executable(lab3_ex_1
+        Lab_3/ex1.c)
+
+add_executable(lab3_ex_2a
+        Lab_3/ex2a.c)
+
+add_executable(lab3_ex_2b
+        Lab_3/ex2b.c)
+
+add_executable(lab3_ex_3
+        Lab_3/ex3.c)

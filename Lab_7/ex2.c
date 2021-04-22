@@ -60,6 +60,7 @@ int module_max(int* arr, int n){
     }
     return index_max;
 }
+//
 int dobutok(int *arr, int n, int max_el){
     int d = 1;
     for (int i = max_el+1; i < n; i++) {
@@ -68,7 +69,7 @@ int dobutok(int *arr, int n, int max_el){
     return d;
 }
 int main(){
-    const int MIN = -100, MAX = 100, N = 10;
+    const int MIN = -10, MAX = 10, N = 10;
     int arr[N];
     srand(time(0));
     do {

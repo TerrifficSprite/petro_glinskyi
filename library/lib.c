@@ -118,7 +118,7 @@ float sumf(float arr[], int length) {
 ////////////////////////////////////////////////////
 
 //sort
-int sortd(int arr[], int length) {
+int sortd(int *arr[], int length) {
     for (int i=1; i<length; i++) {
         int k = i;
         while ((k > 0) && (arr[k-1] > arr[k])) {
@@ -128,7 +128,6 @@ int sortd(int arr[], int length) {
             k -= 1;
         }
     }
-
 }
 
 float sortf(float arr[], int length) {
