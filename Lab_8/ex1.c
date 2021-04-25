@@ -43,6 +43,8 @@ float calc(int m, int arr[m]){
             n++; sum+=i;
         }
     }
+    if(n == 0)
+        return -1;
     return (float)sum/n;
 }
 // Головна програма
@@ -81,8 +83,14 @@ int main(){
         if (flag)   break;
         // ------- Початок обчислень ------- //
         print_arr(m, array);
-        printf("Середнє арифметичне індексів парних елементів: ");
+        setColor(RED);
+        if(calc(m, array) == -1)
+            printf("В масиві відсутні парні елементи!\n");
+        else{
+         setColor(WHITE);
+            printf("Середнє арифметичне індексів парних елементів: ");
             setColor(GREEN);printf("%.2f\n", calc(m ,array)); setColor(WHITE);
+        }
         // ------- Кінець обчислень ------- //
     }while (1);
     return 0;
