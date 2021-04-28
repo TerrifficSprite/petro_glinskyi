@@ -58,6 +58,7 @@ int main(){
         setColor(YELLOW);
         printf("------------------------------------\n");
         print_arr(m, arr);
+        int a = 0;
         for(int i = 0; i < m - 2; i++){
             if(arr[i] > arr[i+1])
                 if(arr[i+1] > arr[i+2]){
@@ -68,8 +69,12 @@ int main(){
                     third = &arr[i+2];
                     printf("Ділянка №%d, числа: ", combo);
                     setColor(GREEN); printf("%d, %d, %d\n", *first, *second, *third);
+                    a = 1;
                 }
         }
+        setColor(RED);
+        if(!a)
+            printf("В масиві немає неперевних ділянок спадаючих елементів\n");
         // ------- Кінець обчислень ------- //
     }while (1);
     return 0;

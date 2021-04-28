@@ -55,7 +55,6 @@ int dobutok(int m, int arr[m]){
         dob=dob*arr[i];
     return dob;
 }
-
 int main(){
     do {
         int flag = 0;
