@@ -27,3 +27,27 @@ add_executable(lab3_ex_2b
 
 add_executable(lab3_ex_3
         Lab_3/ex3.c)
+
+add_executable(lab4_ex_1
+        Lab_4/ex1.c)
+
+add_executable(lab4_ex_2
+        Lab_4/ex2.c)
+
+add_executable(lab4_ex_3
+        Lab_4/ex3.c)
+
+add_executable(lab4_ex_4
+        Lab_4/ex4.c)
+
+add_executable(lab5_ex_1
+        Lab_5/ex1.c)
+
+add_executable(lab5_ex_2
+        Lab_5/ex2.c)
+
+add_executable(lab6_ex_1
+        Lab_6/ex1.c)
+
+add_executable(lab6_ex_2
+        Lab_6/ex2.c)
