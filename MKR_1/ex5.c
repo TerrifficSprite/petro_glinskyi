@@ -2,6 +2,7 @@
 #include "../../rlutil/rlutil.h"
 #include "../library/lib.c"
 #include <math.h>
+
 int main(){
     do {
         draw(YELLOW);
